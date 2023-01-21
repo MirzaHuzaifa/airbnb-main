@@ -6,7 +6,7 @@ export default function MapButton(){
 
     return(
         <div className="w-[100%] flex">
-        <button className="px-5 py-3 mx-auto bg-red-400" onClick={<MapPage/>}>Show Map</button>  
+        <button className="px-5 py-3 mx-auto bg-red-400 rounded-md hover:bg-red-600" onClick={(<MapPage/>)}>Show Map</button>  
         </div>
     );
 }

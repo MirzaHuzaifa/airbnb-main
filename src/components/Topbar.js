@@ -1,12 +1,13 @@
 import React from 'react'
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
+import ButtonAppBar from './ButtonAppBar';
 // import { textTransform } from '@mui/system';
 export default function Topbar() {
   return (
-    <div >
+    <div>
       <div
-      className="sticky flex flex-wrap justify-between px-10 overflow-hidden border-b-2 -p-2 sm:flex-row sm:flex top align">
+      className="sticky flex flex-wrap justify-between hidden p-2 px-10 overflow-hidden border-b-2 sm:flex-row sm:flex top align">
         <div>
           <a href='#'>
             <img className='h-20' src='img/Airbnb-logo.png' alt='logo'/>
@@ -32,11 +33,14 @@ export default function Topbar() {
         <div className='flex content-center justify-between pt-1'>
             <Button style={{color: "black"}}>Become a Host</Button>
             <img className='h-8 pr-2 mt-6 aign-middle' src='img/browser-remove.png' alt='logo'/> 
-            <button className='flex px-2 my-5 duration-300 ease-in border-2 border-gray-200 rounded-full hover:border-r-4 hover:border-b-4'>
+            <button className='flex px-2 my-5 duration-300 ease-in border-2 border-gray-200 rounded-full hover:border-l-4 hover:border-b-4'>
             <img className='h-3 pr-2 mt-[10px]' src='img/list.png' alt='logo'/> 
             <img className='mt-[2px] h-7' src='img/pro-logo.png' alt='logo'/>
             </button>
         </div>
+      </div>
+      <div className='block px-5 sm:hidden'>
+      <ButtonAppBar />
       </div>
     </div>
   )

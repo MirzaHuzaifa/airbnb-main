@@ -24,7 +24,7 @@ export default function BasicModal() {
   return (
     
     <div>
-      <Button className='border-2' onClick={handleOpen}>Filters</Button>
+      <Button className='border-2 border-indigo-600' onClick={handleOpen}>Filters</Button>
       <Modal
         open={open}
         onClose={handleClose}

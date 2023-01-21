@@ -84,9 +84,9 @@ import React from "react";
 export default function ImageSlider(){
 
     return(
-        <div className="flex m-auto mt-10">
+        <div className="flex m-auto mt-10 animate-backgroundImage">
         
-        <img src="img/gallexy.png"></img>
+        <img></img>
         </div>
 
     )

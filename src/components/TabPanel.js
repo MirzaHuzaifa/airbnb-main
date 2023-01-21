@@ -54,7 +54,9 @@ export default function ScrollTabs() {
           <Tab label="Item fourteen" {...a11yProps(13)} />
         </Tabs>
         
+        <div className='pt-3'>
         <BasicModal />
+        </div>
         
       </Box>
       <CardBar value={value} index={0}>

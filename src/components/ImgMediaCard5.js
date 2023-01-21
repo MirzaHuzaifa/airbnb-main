@@ -15,7 +15,9 @@ export default function ImgMediaCard5() {
       <CardMedia
         component="img"
         alt="green iguana"
+        className='md:w-50%'
         height="140"
+        width="24%"
         image="img/trees.jpg"
       />
       <CardContent>
@@ -37,7 +39,9 @@ export default function ImgMediaCard5() {
       <CardMedia
         component="img"
         alt="green iguana"
+        className='md:w-[50%]'
         height="140"
+        width="24%"
         image="img/trees.jpg"
       />
       <CardContent>
@@ -59,7 +63,9 @@ export default function ImgMediaCard5() {
       <CardMedia
         component="img"
         alt="green iguana"
+        className='md:w-[50%]'
         height="140"
+        width="24%"
         image="img/trees.jpg"
       />
       <CardContent>
@@ -81,6 +87,7 @@ export default function ImgMediaCard5() {
       <CardMedia
         component="img"
         alt="green iguana"
+        className="md:w-[50%]"
         height="140"
         image="img/trees.jpg"
       />

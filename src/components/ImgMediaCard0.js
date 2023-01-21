@@ -5,14 +5,16 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import { height, style } from '@mui/system';
 
 export default function ImgMediaCard0() {
   return (
 
     <div className='justify-between block gap-4 sm:flex p-11'>
 
-<Card>
+<Card className='rounded-lg'>
       <CardMedia
+      className='rounded-lg'
         component="img"
         alt="green iguana"
         height="140"
@@ -34,6 +36,7 @@ export default function ImgMediaCard0() {
     
     <Card>
       <CardMedia
+      className='rounded-lg shadow-none '
         component="img"
         alt="green iguana"
         height="140"
@@ -55,6 +58,7 @@ export default function ImgMediaCard0() {
     
     <Card>
       <CardMedia
+      className='rounded-lg shadow-none'
         component="img"
         alt="green iguana"
         height="140"
@@ -74,12 +78,13 @@ export default function ImgMediaCard0() {
       </CardActions>
     </Card>
     
-    <Card>
+    <Card className='font-sans'>
       <CardMedia
+      className='rounded-lg shadow-none '
         component="img"
         alt="green iguana"
         height="140"
-        image="img/gallexy.png"
+        image={"img/gallexy.png"}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">

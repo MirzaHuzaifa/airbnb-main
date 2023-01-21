@@ -26,6 +26,7 @@ function App() {
         <Topbar />
         <ScrollTabs />
         <MapButton />
+        <ImageSlider />
       </div>  
     </ThemeProvider>
   );
